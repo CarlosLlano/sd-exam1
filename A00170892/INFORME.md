@@ -291,6 +291,8 @@ end
 ***3.Escriba los cookbooks necesarios para realizar la instalación de los servicios solicitados***
 
 Estructura del proyecto:
+
+
 ![estructura](https://user-images.githubusercontent.com/17281733/32708213-b1a0bf14-c7f6-11e7-934e-e1d768a4bcc7.jpeg)
 
 
@@ -313,6 +315,7 @@ infraestructura y aplicaciones***
 __problemas encontrados__
 
   * __version de java__
+  
     el stack ELK requiere java 1.8 para su correcto funcionamiento. En este caso, se tuvo problemas al iniciar los servicios
     dado que se poseia una version mas antigua.
     Para solucionarlo se uso el siguiente comando:
