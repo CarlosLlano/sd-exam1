@@ -290,16 +290,22 @@ end
 
 ***3.Escriba los cookbooks necesarios para realizar la instalación de los servicios solicitados***
 
+Estructura del proyecto:
+![estructura](https://user-images.githubusercontent.com/17281733/32708213-b1a0bf14-c7f6-11e7-934e-e1d768a4bcc7.jpeg)
 
 
 ***4.Incluya evidencias que muestran el funcionamiento de lo solicitado*** 
 
-__servicio httpd en servidor web__
+__infraesctructura vagrant__
+![corriendo](https://user-images.githubusercontent.com/17281733/32708305-0faf7a8c-c7f7-11e7-980c-d3c4370ed755.jpeg)
 
+__servicio httpd en servidor web 192.168.56.104__
+![httpd](https://user-images.githubusercontent.com/17281733/32708231-c7a3345e-c7f6-11e7-8418-e64015f064fa.jpeg)
 
+__registro de logs de httpd__
 
-__registro de logs de httpd por medio del stack ELK__
-
+Se observa en kibana los logs procedentes del servidor web (192.168.56.104)
+![log](https://user-images.githubusercontent.com/17281733/32708240-d2cc2994-c7f6-11e7-86d7-b6dce8746567.jpeg)
 
 ***5.Documente algunos de los problemas encontrados y las acciones efectuadas para su solución al aprovisionar la 
 infraestructura y aplicaciones***
